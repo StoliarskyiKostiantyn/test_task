@@ -1,0 +1,21 @@
+{
+  "name": "test_task",
+  "version": "1.0.0",
+  "main": "algo.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm --experimental-specifier-resolution=node algo.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
+  }
+}
